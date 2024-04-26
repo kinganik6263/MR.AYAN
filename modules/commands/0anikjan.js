@@ -3,11 +3,11 @@ const axios = require("axios");
 module.exports.config = {
   name: "anik",
   version: "2.0.0",
-  Haspermission: 0,
+  hasPermission: 0,
   credits: "Nayan",
   description: "control admin lists",
-  prefix: false,
-  Commandcategory: "mini",
+  usePrefix: false,
+  commandCategory: "mini",
   usages: "Mini [ask]",
   cooldowns: 5,
 };
